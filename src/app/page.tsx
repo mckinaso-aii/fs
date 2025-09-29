@@ -6,6 +6,7 @@ import {
   ChartBarIcon, 
   CogIcon, 
   DocumentChartBarIcon,
+  DocumentTextIcon,
   BuildingOfficeIcon,
   CurrencyDollarIcon,
   GlobeAltIcon,
@@ -260,6 +261,19 @@ export default function HomePage() {
             </p>
             <div className="text-finland-blue-light font-medium group-hover:text-finland-blue-light/80 transition-colors">
               Ver Cuestionario →
+            </div>
+          </Link>
+
+          <Link href="/entrevistas" className="roi-card group cursor-pointer">
+            <div className="flex items-center mb-4">
+              <DocumentTextIcon className="h-10 w-10 text-finland-blue-light mr-4" />
+              <h3 className="text-2xl font-semibold text-white">Guía de Entrevistas</h3>
+            </div>
+            <p className="text-white/70 mb-4">
+              Cuestionario estructurado para entrevistas presenciales - Listo para imprimir como PDF
+            </p>
+            <div className="text-finland-blue-light font-medium group-hover:text-finland-blue-light/80 transition-colors">
+              Ver Guía →
             </div>
           </Link>
         </div>
